@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment — never commit secrets
+server/.env
+
+# SQLite database (runtime data, not source)
+threads.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
