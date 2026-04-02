@@ -11,7 +11,7 @@
   "use strict";
 
   // ── Configuration ──────────────────────────────────────────────────────────
-  var KB_AGENT_API_URL = "https://YOUR_BACKEND_URL/api/chat"; // <-- replace this
+  var KB_AGENT_API_URL = "https://kb-agent.onrender.com/api/chat";
 
   // ── Guard: only inject once ─────────────────────────────────────────────────
   if (document.getElementById("kb-agent-widget")) return;
