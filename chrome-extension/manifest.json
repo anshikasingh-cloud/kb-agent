@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "KB Agent — Internal Assistant",
+  "version": "1.0.0",
+  "description": "Internal knowledge base chat assistant for Zoho CRM",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://crm.zoho.com/*",
+    "https://kb-agent.onrender.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://crm.zoho.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
